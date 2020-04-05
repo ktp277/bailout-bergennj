@@ -2,22 +2,11 @@
 
 When we began working on this project to help provide financial relief to service workers, one of our **KEY REQUIREMENTS** was to build something *QUICKLY*.
 
-Below is a rough description of how we built bailout.nyc. Please feel free to clone this project to create your own version to support your local community.
+Below is a rough description of how bailout.nyc was built. Please feel free to clone this project to create your own version to support your local community.
 
 ## 1. Fork this repo on github
 
 Pretty much everything is in `index.html` with some key configuration at the top.
-
-### 1.1
-
-If you get this up and running for your local area, please create a PR to add yourself to the README here:
-
-- [bailouthbg.com](https://bailouthbg.com/)
-- [bailoutbos.com](http://bailoutbos.com/)
-- [bailouteugene.org](http://bailouteugene.org/)
-- [mitten.services](https://mitten.services/)
-- [savevanfaves.com](https://savevanfaves.com/)
-
 
 ## 2. Create a registration form on Google Forms
 
