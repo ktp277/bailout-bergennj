@@ -621,12 +621,12 @@ const getQueryParams = () => {
   <div class="mw7 ph4 center">
     <div style="border-bottom:1px #6696CC solid; padding:10px; padding-bottom:26px;">
       <div style="font-size:30px; margin-top:40px; font-weight:bold">bailout-bergennj ❤️</div>
-      <div style="font-size:15px; margin-top:10px"> (based from the creators of <a href="https://bailout.nyc">bailout.nyc</a>)</div>
+      <!--<div style="font-size:15px; margin-top:10px"> (based from the creators of <a href="https://bailout.nyc">bailout.nyc</a>)</div>-->
     </div>
 
     <div class="fl w-100 pa2">
       <h1 style="font-size:36px;">
-        Help Local Businesses and Their Staff in Bergen County
+        Help Service Workers in Bergen County
       </h1>
       <h1 class="f4 measure">
         Many are in financial distress due to Covid-19 business closures.
@@ -653,21 +653,54 @@ const getQueryParams = () => {
     <div class="fl w-100 pa2">
       <div class="bg-white br1 pa3" style="border-radius:4px;">
         <h3 class="f4 measure-narrow mt0">
-          Local Businesses Need Our Help
+          Our Mission
         </h3>
-        With businesses closing in response to Covid-19, many service workers have suddenly lost a
-        reliable income.
+        We want to help our local community by connecting donators with affected businesses. Donations go directly to the business via Venmo or GoFundMe link.
 
         <br />
         <br />
-        If you'd like to support the staff of a particular business, you can also find them below
-        and contribute to them directly. <br />
 
+        <h3 class="f4 measure-narrow mt0">
+          How Can You Help?
+        </h3>
 
-
+        If you'd like to support the staff of a particular business, you can find them below
+        and contribute to them directly.
 
         <br />
-        <div id="tell_me_more_header">
+        <br />
+
+        <b>SPREAD THE WORD about us on your Instagram or Facebook!</b>
+        <br />
+
+      </div>
+
+      <div
+              class="bg-white br1 pa3"
+              style="border-radius:4px; margin-top:20px; margin-bottom: 15px;"
+            >
+        <h3 class="f4 measure-narrow mt0">
+          Affected Businesses
+        </h3>
+        If you own or operate a business affected by Covid-19,
+        <a
+          id="register_business_link"
+          style="font-weight:900;"
+          target="_blank"
+          href=""
+          onClick="sendGAEvent('send', 'event', 'Businesses', 'Clicked form link', '0', '0')"
+          >fill out this form</a
+        >
+        to register your business for listing.
+        <script>
+          document.getElementById('register_business_link').href = REGISTER_FORM_URL;
+        </script>
+
+        <br />
+
+        </div>
+
+<!--        <div id="tell_me_more_header">
           <a
             href=""
             onClick="showTellMeMore(); sendGAEvent('send', 'event', 'Tell me more', 'Clicked tell me more', '0', '0'); return false;"
@@ -682,8 +715,7 @@ const getQueryParams = () => {
               href="https://covid19.nj.gov/faqs/nj-information/general-public/governor-murphy-announces-statewide-stay-at-home-order-closure-of-all-non-essential-retail-businesses"
               >Stay At Home</a
             >
-            order requiring non-essential buisnesses to close. Some of your favorite restaurants, bars, cafes, nightclubs, movie theaters, and concert
-            venues are forced to close due to the lack of business.
+            order requiring non-essential buisnesses to close. Some of your favorite restaurants, cafes, and movie theaters are forced to close due to the lack of business.
           </p>
           <p>
             While this is prudent from a public health perspective, these closures will have a real
@@ -698,7 +730,7 @@ const getQueryParams = () => {
           </p>
         </div>
 
-      </div>
+      </div> -->
 
       <div id="republic_partnership"
         class="bg-white br1 pa3"
@@ -711,7 +743,7 @@ const getQueryParams = () => {
         match donations up to $1,000 per week to support service workers during this time. <span style="font-weight:bold;">Donate now to double your impact!</span>
       </div>
 
-      <div
+<!--      <div
         class="bg-white br1 pa3"
         style="border-radius:4px; margin-top:20px; margin-bottom: 15px;"
       >
@@ -733,7 +765,7 @@ const getQueryParams = () => {
         <script>
           document.getElementById('register_business_link').href = REGISTER_FORM_URL;
         </script>
-      </div>
+      </div> -->
 
 
 <!--      <div class="bg-white br1 pa3" style="border-radius:4px;">
@@ -784,8 +816,8 @@ const getQueryParams = () => {
         style="font-size:12px; margin-top:12px; margin-bottom:5px; margin-left:10px; margin-right:10px; text-align: center; "
       >
         <div style="max-width:410px; margin:0 auto;">
-          This website was built to support our local businesses here in Bergen County. We wanted to help provide relief to businesses that have suffered due to the Covid-19. Let's
-          extend a helping hand and save our local businesses together.
+          The website was built to support our local businesses here in Bergen County. We wanted to help provide relief to businesses that have suffered due to Covid-19. Let's
+          save our local businesses together.
         </div>
         <br /><br />
         ❤️<br />
